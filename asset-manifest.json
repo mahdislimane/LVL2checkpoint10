@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/LVL2checkpoint10/static/css/main.cb902d8e.chunk.css",
-    "main.js": "/LVL2checkpoint10/static/js/main.52f6dd3a.chunk.js",
-    "main.js.map": "/LVL2checkpoint10/static/js/main.52f6dd3a.chunk.js.map",
+    "main.js": "/LVL2checkpoint10/static/js/main.4318a927.chunk.js",
+    "main.js.map": "/LVL2checkpoint10/static/js/main.4318a927.chunk.js.map",
     "runtime-main.js": "/LVL2checkpoint10/static/js/runtime-main.5ddc4d44.js",
     "runtime-main.js.map": "/LVL2checkpoint10/static/js/runtime-main.5ddc4d44.js.map",
     "static/js/2.f72300da.chunk.js": "/LVL2checkpoint10/static/js/2.f72300da.chunk.js",
     "static/js/2.f72300da.chunk.js.map": "/LVL2checkpoint10/static/js/2.f72300da.chunk.js.map",
     "index.html": "/LVL2checkpoint10/index.html",
-    "precache-manifest.22ba7848ea4b60a9baf3346b79eedfe2.js": "/LVL2checkpoint10/precache-manifest.22ba7848ea4b60a9baf3346b79eedfe2.js",
+    "precache-manifest.146eed04c9d216c51e91a20b88685a49.js": "/LVL2checkpoint10/precache-manifest.146eed04c9d216c51e91a20b88685a49.js",
     "service-worker.js": "/LVL2checkpoint10/service-worker.js",
     "static/css/main.cb902d8e.chunk.css.map": "/LVL2checkpoint10/static/css/main.cb902d8e.chunk.css.map",
     "static/js/2.f72300da.chunk.js.LICENSE.txt": "/LVL2checkpoint10/static/js/2.f72300da.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.5ddc4d44.js",
     "static/js/2.f72300da.chunk.js",
     "static/css/main.cb902d8e.chunk.css",
-    "static/js/main.52f6dd3a.chunk.js"
+    "static/js/main.4318a927.chunk.js"
   ]
 }
