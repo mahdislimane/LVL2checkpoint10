@@ -11,7 +11,7 @@ export default class App extends React.Component {
     return (
       <BrowserRouter>
         <Route path="/" component={Home} />
-        <Route path="/" exact component={MainHome} />
+        <Route exact path="/" component={MainHome} />
         <Route path="/todoapp" exact component={TodoApp} />
         <Route path="/BestMovies" exact component={BestMovies} />
         <Route path="/profiles" exact component={Profiles} />

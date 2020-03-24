@@ -31,7 +31,10 @@ export default class Profiles extends Component {
   };
   render(props) {
     return (
-      <div className="container-fluid row" style={{ textAlign: "center" }}>
+      <div
+        className="container-fluid row"
+        style={{ textAlign: "center", fontWeight: "bolder" }}
+      >
         <div className="col-sm-4 col-12">
           <AddProfile
             newProfile={x => this.add(x)}
@@ -40,10 +43,10 @@ export default class Profiles extends Component {
           />
         </div>
         <div className="col-sm-8 col-12">
-          <div className="col-lg-4 col-0"></div>
-          <div className="col-lg-4 col-12">
+          <div className="col-12">
             {this.state.profiles.map(x => (
               <button
+                style={{ marginTop: "10px" }}
                 onClick={() =>
                   this.setState({
                     name: x.name,
@@ -56,10 +59,13 @@ export default class Profiles extends Component {
               </button>
             ))}
           </div>
-          <div className="col-lg-4 col-0"></div>
-          <div className="col-lg-4 col-0"></div>
-          <div className="col-lg-4 col-12" style={{ textAlign: "center" }}>
-            <h1>{!this.state.name ? "Choose One" : this.state.name}</h1>
+
+          <div className="col-12" style={{ textAlign: "center" }}>
+            <h1>
+              {!this.state.name
+                ? "Add profiles and choose one"
+                : this.state.name}
+            </h1>
             <img
               style={{ height: 200 }}
               src={
@@ -71,7 +77,6 @@ export default class Profiles extends Component {
             />
             <p className="col-12">{this.state.description}</p>
           </div>
-          <div className="col-lg-4 col-0"></div>
         </div>
       </div>
     );

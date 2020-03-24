@@ -36,14 +36,15 @@ export default class Movies extends Component {
   };
   render(props) {
     return (
-      <div className="container-fluid row" style={{ textAlign: "center" }}>
+      <div
+        className="container-fluid row"
+        style={{ textAlign: "center", marginTop: "10px" }}
+      >
         <div className="col-sm-2 col-0">
-          {" "}
           <Search setKeyWord={x => this.search(x)} />
         </div>
         <div className="col-sm-8 col-12">
-          <div className="col-lg-4 col-0"></div>
-          <div className="col-lg-4 col-12">
+          <div className="col-12">
             {this.state.movies
               .filter(el =>
                 el.name.toUpperCase().includes(this.state.keyword.toUpperCase())
@@ -63,17 +64,15 @@ export default class Movies extends Component {
                 </button>
               ))}
           </div>
-          <div className="col-lg-4 col-0"></div>
-          <div className="col-lg-4 col-0"></div>
           <div
-            className="col-lg-4 col-12"
+            className="col-12"
             style={{ textAlign: "center", marginTop: "20px" }}
           >
             <h1>{!this.state.name ? "Choose One" : this.state.name}</h1>
             <iframe
               src={this.state.source && this.state.source}
-              width="400"
-              height="auto"
+              width="100%"
+              height="300"
               webkitAllowFullScreen
               mozallowfullscreen
               allowfullscreen
@@ -83,7 +82,6 @@ export default class Movies extends Component {
 
             <p className="col-12">{this.state.description}</p>
           </div>
-          <div className="col-lg-4 col-0"></div>
         </div>
         <div className="col-sm-2 col-0"></div>
       </div>
