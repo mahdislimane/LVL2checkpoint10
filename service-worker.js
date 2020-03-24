@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/LVL2checkpoint10/precache-manifest.14bffb0b63533b3cb1603e10c42801f8.js"
+  "/LVL2checkpoint10/precache-manifest.05e048969743aaf9571c2921715c8ce0.js"
 );
 
 self.addEventListener('message', (event) => {
